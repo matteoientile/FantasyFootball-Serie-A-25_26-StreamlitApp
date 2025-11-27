@@ -13,12 +13,9 @@ Beyond simple descriptive statistics, the project leverages data science techniq
 ---
 
 ## 🖼️ Application Preview
+![Dashboard Screenshot](<img width="1702" height="807" alt="image" src="https://github.com/user-attachments/assets/2f6fa192-88a5-4167-9666-1b4a48ce4989" />)
 
-*(Insert a screenshot of your main dashboard or a Scatter Plot here)*
-![Dashboard Screenshot](img/dashboard_preview.png)
-
-### 🔗 [Live Demo](https://vincilfanta2526-matteoientile.streamlit.app/) 
-*(If deployed, otherwise remove this line)*
+### 🔗 [STREAMLIT WEB APP](https://vincilfanta2526-matteoientile.streamlit.app/) 
 
 ---
 
