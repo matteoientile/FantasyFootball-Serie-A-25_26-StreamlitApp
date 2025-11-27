@@ -65,3 +65,41 @@ The application is structured into modular analysis pages:
 ├── data/                        # Dataset storage (Excel/CSV)
 ├── requirements.txt             # Dependencies
 └── README.md                    # Documentation
+
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+Ensure you have Python installed.
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/matteoientile/Fantasy25_26.git](https://github.com/matteoientile/Fantasy25_26.git)
+    cd Fantasy25_26
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3.  **Run the App:**
+    ```bash
+    streamlit run Fanta2526_Homepage.py
+    ```
+
+---
+
+## 🔮 Future Developments
+
+* **Predictive Modeling:** Integrating a Time Series model (ARIMA/LSTM) to predict player form for the next 3 matchdays.
+* **Optimization Engine:** Adding a Linear Programming solver (PuLP) to suggest the mathematically optimal lineup based on budget constraints.
+
+## 👤 Author
+
+**Matteo Ientile**
+* M.Sc. Student in Mathematical Engineering @ Politecnico di Torino
+* [LinkedIn](https://www.linkedin.com/in/matteo-ientile/)
