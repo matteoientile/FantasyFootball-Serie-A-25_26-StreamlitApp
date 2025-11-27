@@ -17,7 +17,7 @@ Beyond simple descriptive statistics, the project leverages data science techniq
 *(Insert a screenshot of your main dashboard or a Scatter Plot here)*
 ![Dashboard Screenshot](img/dashboard_preview.png)
 
-### 🔗 [Live Demo](INSERT_YOUR_STREAMLIT_CLOUD_LINK_HERE) 
+### 🔗 [Live Demo](https://vincilfanta2526-matteoientile.streamlit.app/) 
 *(If deployed, otherwise remove this line)*
 
 ---
