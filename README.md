@@ -13,7 +13,7 @@ Beyond simple descriptive statistics, the project leverages data science techniq
 ---
 
 ## 🖼️ Application Preview
-![Dashboard Screenshot](<img width="1702" height="807" alt="image" src="https://github.com/user-attachments/assets/2f6fa192-88a5-4167-9666-1b4a48ce4989" />)
+![Dashboard Screenshot](https://github.com/user-attachments/assets/2f6fa192-88a5-4167-9666-1b4a48ce4989)
 
 ### 🔗 [STREAMLIT WEB APP](https://vincilfanta2526-matteoientile.streamlit.app/) 
 
@@ -48,23 +48,6 @@ The application is structured into modular analysis pages:
 * **Machine Learning:** Scikit-learn (StandardScaler, PCA, KMeans)
 
 ---
-
-## 📂 Project Structure
-
-```text
-├── Fanta2526_Homepage.py        # Application Entry Point & Landing Page
-├── pages/
-│   ├── 1_Statistiche_PORTIERI.py       # GK Analysis Module
-│   ├── 2_Statistiche_DIFENSORI.py      # Defenders Analysis Module
-│   ├── 3_Statistiche_CENTROCAMPISTI.py # Midfielders Analysis Module
-│   ├── 4_Statistiche_ATTACCANTI.py     # Strikers Analysis & ML Module
-│   └── 5_Listone&Formazioni.py         # Database & Lineup Tools
-├── data/                        # Dataset storage (Excel/CSV)
-├── requirements.txt             # Dependencies
-└── README.md                    # Documentation
-
-
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -100,3 +83,21 @@ Ensure you have Python installed.
 **Matteo Ientile**
 * M.Sc. Student in Mathematical Engineering @ Politecnico di Torino
 * [LinkedIn](https://www.linkedin.com/in/matteo-ientile/)
+
+## 📂 Project Structure
+
+```text
+├── Fanta2526_Homepage.py        # Application Entry Point & Landing Page
+├── pages/
+│   ├── 1_Statistiche_PORTIERI.py       # GK Analysis Module
+│   ├── 2_Statistiche_DIFENSORI.py      # Defenders Analysis Module
+│   ├── 3_Statistiche_CENTROCAMPISTI.py # Midfielders Analysis Module
+│   ├── 4_Statistiche_ATTACCANTI.py     # Strikers Analysis & ML Module
+│   └── 5_Listone&Formazioni.py         # Database & Lineup Tools
+├── data/                        # Dataset storage (Excel/CSV)
+├── requirements.txt             # Dependencies
+└── README.md                    # Documentation
+
+
+
+
