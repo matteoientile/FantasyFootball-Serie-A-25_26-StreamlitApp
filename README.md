@@ -1,1 +1,67 @@
-# Fantasy25_26
+# ⚽ Fantasy Football Analytics Dashboard
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-ff4b4b)
+![Data Science](https://img.shields.io/badge/Data%20Science-PCA%20%26%20Clustering-green)
+
+## 📊 Executive Summary
+
+This repository hosts an interactive **Decision Support System (DSS)** designed for Fantasy Football (Serie A) players. Built with **Python** and **Streamlit**, the application transforms raw match data into actionable insights, helping users optimize their roster strategy through statistical analysis and visualization.
+
+Beyond simple descriptive statistics, the project leverages data science techniques (**Dimensionality Reduction**, **Unsupervised Clustering**) to identify undervalued players and analyze performance clusters using the `scikit-learn` library.
+
+---
+
+## 🖼️ Application Preview
+
+*(Insert a screenshot of your main dashboard or a Scatter Plot here)*
+![Dashboard Screenshot](img/dashboard_preview.png)
+
+### 🔗 [Live Demo](INSERT_YOUR_STREAMLIT_CLOUD_LINK_HERE) 
+*(If deployed, otherwise remove this line)*
+
+---
+
+## 🛠️ Key Features
+
+The application is structured into modular analysis pages:
+
+### 1. Role-Specific Analysis
+* **Goalkeepers (`1_Statistiche_PORTIERI`):** Analysis of Goals Conceded vs. Expected Goals (xG) to evaluate true shot-stopping performance.
+* **Defenders & Midfielders (`2_DIF`, `3_CEN`):** Advanced filtering by Fantasy Average (FantaMedia), Games Played, and Consistency metrics.
+* **Strikers (`4_Statistiche_ATTACCANTI`):** * **Violin Plots & Box Plots** to visualize the variance and consistency of player scores.
+    * **Scatter Plots** for cross-metric analysis (e.g., Price vs. Performance).
+
+### 2. Advanced Metrics & Machine Learning
+* **Player Similarity Search:** Implementation of **K-Means Clustering** to group players with similar output profiles (e.g., "Playmakers", "Target Men", "Inefficient Volume Shooters").
+* **Dimensionality Reduction:** Application of **PCA (Principal Component Analysis)** to synthesize multi-dimensional performance metrics into interpretable indices, reducing noise in player evaluation.
+
+### 3. Roster Management (`5_Listone&Formazioni`)
+* Interactive tables to manage the full player database.
+* Tools for auction simulation and budget allocation optimization.
+
+---
+
+## 💻 Tech Stack
+
+* **Core:** Python 3.x
+* **Web Framework:** [Streamlit](https://streamlit.io/)
+* **Data Manipulation:** Pandas, NumPy
+* **Visualization:** Matplotlib, Seaborn, Plotly (for interactive charts)
+* **Machine Learning:** Scikit-learn (StandardScaler, PCA, KMeans)
+
+---
+
+## 📂 Project Structure
+
+```text
+├── Fanta2526_Homepage.py        # Application Entry Point & Landing Page
+├── pages/
+│   ├── 1_Statistiche_PORTIERI.py       # GK Analysis Module
+│   ├── 2_Statistiche_DIFENSORI.py      # Defenders Analysis Module
+│   ├── 3_Statistiche_CENTROCAMPISTI.py # Midfielders Analysis Module
+│   ├── 4_Statistiche_ATTACCANTI.py     # Strikers Analysis & ML Module
+│   └── 5_Listone&Formazioni.py         # Database & Lineup Tools
+├── data/                        # Dataset storage (Excel/CSV)
+├── requirements.txt             # Dependencies
+└── README.md                    # Documentation
